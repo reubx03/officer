@@ -32,3 +32,4 @@ iface = gradio.ChatInterface(customLLMBot,
                      examples=["hi", "What is an FIR?", "How to report a cybercrime"],
                      submit_btn=True
                      )
+iface.launch(share=True)
